@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityUsers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/et_user1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Выберете станцию отправления"
+            android:text="Brest"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_user2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Minsk"
+            android:textSize="20sp"
+            android:hint="Выберете станцию приезда"/>
+
+        <Button
+            android:id="@+id/btnDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:background="@color/btn_date"
+            android:padding="15dp"
+            android:text="Выберите дату отправления"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvSelectedDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Дата отправления"
+            android:text="12/12/2019"/>
+
+        <Button
+            android:id="@+id/btnDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:background="@color/btn_date"
+            android:padding="15dp"
+            android:text="Выберите дату приезда"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvSelectedDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Дата приезда"
+            android:text="12/12/2019"/>
+
+        <Button
+            android:id="@+id/find_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:background="@color/btn_date"
+            android:padding="15dp"
+            android:text="Найти поезд"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/csv_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="******"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d49013</color>
+    <color name="text_bottom">#111212</color>
+    <color name="ripple_effect">#b32d12</color>
+    <color name="btn_sign_in">#ed7171</color>
+    <color name="btn_sign_in_stroke">#e66060</color>
+    <color name="btn_register">#e27a5d</color>
+    <color name="btn_register_in_stroke">#d16e53</color>
+    <color name="btn_date">#2a5fbd</color>
+    <color name="action_bar">#2a5fbd</color>
+</resources>

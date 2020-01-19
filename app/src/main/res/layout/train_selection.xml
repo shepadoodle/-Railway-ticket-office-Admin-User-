@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Поезд"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/textView1"
+        android:layout_weight="30"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="35">
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TextView2" />
+
+        <TextView
+
+            android:text="TextView5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView5"/>
+
+        <TextView
+
+            android:text="TextView6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView6"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="35">
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TextView3" />
+
+        <TextView
+
+            android:text="TextView4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView4"/>
+        <TextView
+
+            android:text="TextView7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView7"/>
+
+    </LinearLayout>
+
+</LinearLayout>

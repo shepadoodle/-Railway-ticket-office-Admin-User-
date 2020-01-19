@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/train2"
+    tools:context=".ActivityUsers">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/tv_admin_startst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Начальная станция"
+            />
+
+        <EditText
+            android:id="@+id/tv_admin_endst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Конечная станция" />
+
+        <EditText
+            android:id="@+id/et_admin_startDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Дата отправления" />
+
+        <EditText
+            android:id="@+id/et_admin_endDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Дата приезда" />
+
+        <EditText
+            android:id="@+id/et_admin_startTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Время отъезда" />
+
+        <EditText
+            android:id="@+id/et_admin_endTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Время приезда" />
+
+
+
+        <Button
+            android:id="@+id/admin_btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:background="@color/btn_date"
+            android:padding="15dp"
+            android:text="Добавить маршрут"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

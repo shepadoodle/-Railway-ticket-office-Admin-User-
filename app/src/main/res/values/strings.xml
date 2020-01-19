@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kpp</string>
+    <string name="app_in_name">Система</string>
+    <string name="app_name_after">Регистрационное окно</string>
+    <string name="text_bottom">Войдите в свою учётную запись</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="btnSignIn">Войти</string>
+
+    <string name="tv1_users">Users Activity</string>
+    <string name="tv1_admins">Admins Activity</string>
+
+</resources>
